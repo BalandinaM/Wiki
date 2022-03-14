@@ -1,0 +1,25 @@
+main, header {
+    width: 70%; /* ширина всего блока */
+    margin:auto; /* выравнивание по центру страницы, внешние границы */
+  }
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif; /*шрифт заголовков*/
+    margin-top: 1.5em; /*верхний ВНЕШНИЙ отступ*/
+    margin-bottom: 1em;/*нижний ВНЕШНИЙ отступ*/
+}
+h1 {
+    font-size: 32px; /*размер шрифта*/
+}
+table, td, th {
+    border-collapse: collapse; /*убираем зазоры между ячейками таблицы*/
+    border: 1px solid #000; /*толщина линии, сплошная, цвет*/
+}
+
+figcaption {
+    font-style: italic; /*курсив*/
+}
+
+figure {
+    float: right;
+    margin-top: 0;
+}
